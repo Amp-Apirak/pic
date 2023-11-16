@@ -41,7 +41,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Innovation | Work Task</title>
+    <title>  Kunson Moo | Work Task</title>
 
     <!-- highlight -->
     <style>
@@ -52,11 +52,11 @@
     <!-- highlight -->
 
     <!----------------------------- start header ------------------------------->
-    <?php include ("../up/templated/head.php");?>
+    <?php include ("../pic/templated/head.php");?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include ("../up/templated/menu.php");?>
+    <?php include ("../pic/templated/menu.php");?>
     <!----------------------------- end menu --------------------------------->
 
 
@@ -621,12 +621,12 @@
                                             </td> 
                                             
                                             <td  scope="col" class="text-nowrap text-center" height="" width="100">
-                                                <a href="../up/example/<?php echo $res_search["file_upfile"]; ?>" data-lightbox="image-1" data-title="../up/example/<?php echo $res_search["file_upfile"]; ?>  (<?php echo $res_search["file_upfile"]; ?>)" class="img-fluid "   >
+                                                <a href="../pic/example/<?php echo $res_search["file_upfile"]; ?>" data-lightbox="image-1" data-title="../pic/example/<?php echo $res_search["file_upfile"]; ?>  (<?php echo $res_search["file_upfile"]; ?>)" class="img-fluid "   >
                                                             <?php
                                                                 if($res_search["file_upfile"] ==''){
                                                                     echo "<span class='badge badge-warning'>No Image</span>";
                                                                 }elseif($res_search["file_upfile"]){
-                                                                    echo '<img class="imgx"  width="60" height="45" src="../up/example/'.$res_search["file_upfile"].'"';
+                                                                    echo '<img class="imgx"  width="60" height="45" src="../pic/example/'.$res_search["file_upfile"].'"';
                                                                 }
                                                             ?>
                                                     </a>
@@ -637,13 +637,13 @@
                                             </td> 
 
                                             <td  scope="col" class="text-nowrap text-center" height="" width="100">
-                                                <a href="../up/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="../up/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
+                                                <a href="../pic/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="../pic/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
 
                                                     <?php
                                                         if($res_search["file_test"] ==''){
                                                             echo "<span class='badge badge-warning'>No Image</span>";
                                                         }elseif($res_search["file_test"]){
-                                                            echo '<img class="imgx"  width="60" height="45" src="../up/test/'.$res_search["file_test"].'"';
+                                                            echo '<img class="imgx"  width="60" height="45" src="../pic/test/'.$res_search["file_test"].'"';
                                                         }
                                                     ?>
 
@@ -725,7 +725,7 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include ("../up/templated/footer.php");?>
+    <?php include ("../pic/templated/footer.php");?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- highlight -->

@@ -5,15 +5,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Uplevel | Add Task</title>
+    <title>Kunson Moo | Add Task</title>
 
 
     <!----------------------------- start header ------------------------------->
-    <?php include("../up/templated/head.php"); ?>
+    <?php include("../pic/templated/head.php"); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../up/templated/menu.php"); ?>
+    <?php include("../pic/templated/menu.php"); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!----------------------------- start Time ------------------------------->
@@ -363,7 +363,7 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../up/templated/footer.php"); ?>
+    <?php include("../pic/templated/footer.php"); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- highlight -->

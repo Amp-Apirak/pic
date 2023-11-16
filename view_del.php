@@ -1,10 +1,10 @@
 
     <!----------------------------- start header ------------------------------->
-    <?php include("../up/templated/head.php"); ?>
+    <?php include("../pic/templated/head.php"); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../up/templated/menu.php"); ?>
+    <?php include("../pic/templated/menu.php"); ?>
     <!----------------------------- end menu --------------------------------->
 <!-- Start Configrate  -->
 <?php
@@ -54,5 +54,5 @@
     ?>
 
       <!----------------------------- start menu ------------------------------->
-      <?php include("../up/templated/footer.php"); ?>
+      <?php include("../pic/templated/footer.php"); ?>
     <!----------------------------- end menu --------------------------------->

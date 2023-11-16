@@ -9,11 +9,11 @@
 
 
     <!----------------------------- start header ------------------------------->
-    <?php include("../up/templated/head.php"); ?>
+    <?php include("../pic/templated/head.php"); ?>
     <!----------------------------- end header --------------------------------->
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../up/templated/menu.php"); ?>
+    <?php include("../pic/templated/menu.php"); ?>
     <!----------------------------- end menu --------------------------------->
 
 
@@ -88,7 +88,7 @@
                                 <div class="col-12">
                                     <h4>
                                         <i class="image">
-                                            <img src="../up/img/pit.png" width=“60px” height='50' alt="User Image">
+                                            <img src="../pic/img/pit.png" width=“60px” height='50' alt="User Image">
                                             <!-- class="img-circle elevation-2" -->
                                         </i> Point IT
                                         <small><span class='badge badge-secondary float-right'>Create Date :
@@ -141,24 +141,24 @@
                                     <div class="row">
                                         <div class="col-sm mt-3">
                                             <td  scope="col" class="text-nowrap text-center" height="" width="100">
-                                                <a href="../up/example/<?php echo $res_search["file_upfile"]; ?>" data-lightbox="image-1" data-title="../up/example/<?php echo $res_search["file_upfile"]; ?>  (<?php echo $res_search["file_upfile"]; ?>)" class="img-fluid "   >
+                                                <a href="../pic/example/<?php echo $res_search["file_upfile"]; ?>" data-lightbox="image-1" data-title="../pic/example/<?php echo $res_search["file_upfile"]; ?>  (<?php echo $res_search["file_upfile"]; ?>)" class="img-fluid "   >
                                                     <?php
                                                         if($res_search["file_upfile"] ==''){
                                                             echo "<span class='badge badge-warning'>No Image</span>";
                                                         }elseif($res_search["file_upfile"]){
-                                                            echo '<img class="imgx"  width="120" height="120" src="../up/example/'.$res_search["file_upfile"].'"';
+                                                            echo '<img class="imgx"  width="120" height="120" src="../pic/example/'.$res_search["file_upfile"].'"';
                                                         }
                                                     ?>
                                                 </a>
                                                 
                                             </td> 
                                         <td  scope="col" class="text-nowrap text-center" height="" width="120">
-                                            <a href="../up/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="../up/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
+                                            <a href="../pic/test/<?php echo $res_search["file_test"]; ?>" data-lightbox="image-1" data-title="../pic/test/<?php echo $res_search["file_test"]; ?>  (<?php echo $res_search["file_test"]; ?>)" class="img-fluid "   >
                                                 <?php
                                                     if($res_search["file_test"] ==''){
                                                         echo "<span class='badge badge-warning'>No Image</span>";
                                                     }elseif($res_search["file_test"]){
-                                                        echo '<img class="imgx"  width="120" height="100" src="../up/test/'.$res_search["file_test"].'"';
+                                                        echo '<img class="imgx"  width="120" height="100" src="../pic/test/'.$res_search["file_test"].'"';
                                                         }
                                                 ?>
                                             </a>
@@ -306,12 +306,12 @@
 
 
     <!----------------------------- start menu ------------------------------->
-    <?php include("../up/templated/footer.php"); ?>
+    <?php include("../pic/templated/footer.php"); ?>
     <!----------------------------- end menu --------------------------------->
 
     <!-- Ekko Lightbox -->
-    <script src="../up/code/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
-    <script src="../up/code/plugins/filterizr/jquery.filterizr.min.js"></script>
+    <script src="../pic/code/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
+    <script src="../pic/code/plugins/filterizr/jquery.filterizr.min.js"></script>
 
     <script>
     $(function() {
@@ -332,7 +332,7 @@
     })
     </script>
 
-    <script src="../up/code/dist/js/lightbox.min.js"></script>
+    <script src="../pic/code/dist/js/lightbox.min.js"></script>
 
 
     <!-- highlight -->
