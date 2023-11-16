@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kunson Moo | Add Task</title>
+    <title>Uplevel | Add Task</title>
 
 
     <!----------------------------- start header ------------------------------->
@@ -19,8 +19,7 @@
     <!----------------------------- start Time ------------------------------->
     <?php
     date_default_timezone_set('asia/bangkok');
-    $date = date('d/m/Y');
-    $time = date("H:i:s", "1359780799");
+    $date = date("Y-m-d H:i:s");
     ?>
     <!----------------------------- start Time ------------------------------->
 
@@ -64,8 +63,8 @@
 
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Project Name</label>
-                                                <input type="text" name="project_name" class="form-control"
-                                                    id="exampleInputEmail1" placeholder="โครกการ" value="Kunson Moo" >
+                                                <input type="text" name="project_name" class="form-control" id="exampleInputEmail1" placeholder="โครกการ" value="Kunson Moo" >
+                                                <input type="Hidden" name="date_crt" class="form-control"  value="<?php echo $date; ?>" >
                                             </div>
                                             <!-- /.form-group -->
 
