@@ -65,7 +65,7 @@
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Project Name</label>
                                                 <input type="text" name="project_name" class="form-control"
-                                                    id="exampleInputEmail1" placeholder="โครกการ" value="Uplevel Application" >
+                                                    id="exampleInputEmail1" placeholder="โครกการ" value="Kunson Moo" >
                                             </div>
                                             <!-- /.form-group -->
 
@@ -95,7 +95,7 @@
                                                         <label>Service <span class="text-danger">*</span></label>
                                                         <select class="custom-select select2 " width=""
                                                             name="service_name">
-                                                            <option selected="selected">Dev Test</option>
+                                                            <option selected="selected"></option>
                                                             <?php while ($r = mysqli_fetch_array($query_service)) { ?>
                                                             <option value="<?php echo $r["service_name"]; ?>"
                                                                 <?php if ($r['service_name'] == $service_name) : ?>
@@ -265,7 +265,7 @@
                                                         <label>Owner <small class="text-danger">(ผู้รับผิดชอบ/แก้ไขงาน)</small><span class="text-danger">*</span></label>
                                                         <select class="custom-select select2 " width=""
                                                             name="requester">
-                                                            <option selected="selected">คุณสุรพันธ์ (พี่ขวัญ)</option>
+                                                            <option selected="selected">คุณยุทธนา (พี่ตำรวจ)</option>
                                                             <?php while ($r = mysqli_fetch_array($query_service)) { ?>
                                                             <option value="<?php echo $r["contact_name"]; ?>"
                                                                 <?php if ($r['contact_name'] == $contact_name) : ?>
@@ -300,7 +300,7 @@
                                                         <label>Operation Staff <small class="text-danger">(ผู้รับบันทึก หรือผู้แจ้งปัญหา/บริการ)</small> <span class="text-danger">*</span></label>
                                                         <select class="custom-select select2 " width=""
                                                             name="staff_crt">
-                                                            <option selected="selected">คุณภัทราอร (ซีน)</option>
+                                                            <option selected="selected">คุณผานิต (พี่หญิง)</option>
                                                             <?php while ($r = mysqli_fetch_array($query_service)) { ?>
                                                             <option value="<?php echo $r["contact_name"]; ?>"
                                                                 <?php if ($r['contact_name'] == $contact_name) : ?>
