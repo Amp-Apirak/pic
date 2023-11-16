@@ -2,9 +2,9 @@
 
     <!-- Brand Logo -->
     <a href="index.php" class="brand-link  bg-success">
-        <img src="../pic/img/pic.png" alt="Kunson Moo" class="brand-image img-circle elevation-3"
+        <img src="../pic/img/pic.png" alt="Kudson Moo" class="brand-image img-circle elevation-3"
             style="opacity: .8">
-        <span class="brand-text font-weight-light">Kunson Moo</span>
+        <span class="brand-text font-weight-light">Kudson Moo</span>
     </a>
 
 
