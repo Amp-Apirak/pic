@@ -604,7 +604,7 @@
                                             </td>
 
                                             <td  scope="col" class="" id="mylayout_2" > 
-                                                    <a href="view.php?id=<?php echo $res_search["work_id"]; ?>" > <?php echo $res_search["subject"]; ?></a>
+                                                    <a href="view.php?id=<?php echo $res_search["work_id"]; ?>" target="_blank" > <?php echo $res_search["subject"]; ?></a>
 
                                                     <?php
                                                     if($res_search["add_task"] ==''){
@@ -688,7 +688,7 @@
 
                                             <td>
                                                 <!-- <a href="copy.php?id=<?php echo $res_search["work_id"]; ?>" class="btn btn-success btn-sm "><i class="fas fa-copy"></i></a> -->
-                                                <a href="edit.php?id=<?php echo $res_search["work_id"]; ?>" class="btn btn-info btn-sm " ><i class="fas fa-pencil-alt"></i></a>
+                                                <a href="edit.php?id=<?php echo $res_search["work_id"]; ?>" target="_blank" class="btn btn-info btn-sm " ><i class="fas fa-pencil-alt"></i></a>
                                                 <a href="del.php?id=<?php echo $res_search["work_id"]; ?>" class="btn btn-danger btn-sm swalDefaultSuccess"><i class="fas fa-trash"></i></a>
                                             </td>
                                         </tr>
