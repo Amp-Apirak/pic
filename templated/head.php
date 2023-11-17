@@ -105,7 +105,7 @@ td#mylayout_3{
 
 
 </head>
-        <link rel="icon" type="image/x-icon" href="../pic/img/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="../pic/img/faviconn.ico">
 
     <div class="wrapper">
 
